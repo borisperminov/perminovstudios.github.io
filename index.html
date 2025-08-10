@@ -29,7 +29,15 @@
         }
 
         .coming {
-            background-color: white;
+            background: linear-gradient(45deg, 
+                #ff00ff,  /* Magenta */
+                #00ffff,  /* Cyan */
+                #0066ff,  /* Blue */
+                #ff0080,  /* Pink */
+                #00ff80,  /* Green */
+                #8000ff   /* Purple */
+            );
+            background-size: 300% 300%;
             color: black;
             padding: 10px 20px;
             border-radius: 8px;
@@ -37,6 +45,7 @@
             font-weight: bold;
             text-transform: uppercase;
             letter-spacing: 2px;
+            animation: gradientShift 3s ease-in-out infinite alternate;
         }
 
         .soon {
